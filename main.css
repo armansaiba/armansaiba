@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+  background-image: url('bk.jpg');
+  background-size: cover;
+  background-position: top center;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+
+header input {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 16px 16px 16px 16px;
+  border-bottom: 3px solid #8B0000;
+  
+  color: #313131;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+
+header input:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.location .city {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.location .date {
+  color: #FFF;
+  font-size: 16px;
+}
+
+.current .temp {
+  color: #FFF;
+  font-size: 102px;
+  font-weight: 900;
+  margin: 30px 0px;
+  text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.current .temp span {
+  font-weight: 500;
+}
+
+.current .weather {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 15px;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.current .hi-low {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 500;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
+.Signature {
+  padding-right: 100px;
+  color: #FFF;
+  font-family: "Lucida Console", Courier, monospace;
+  opacity: 40%;
+}
+.sign{
+  top: 100px;
+  width:200px;
+  padding:-10px;
+  color:#FFF;
+  opacity: 55%;
+  font-family: cursive;
+}
+
+div.Weat-Details{
+  position: relative;
+  color:white;
+  top:200px;
+  right:0px;
+  width: 400px;
+  height: 200px;
+  /*border: 3px solid #73AD21;*/
+}
+
+div.F,div.A{
+  text-align: center;
+  top: 0px;
+  right: 0px;
+  width: 200px;
+  height: 100px;
+}
+div.W{
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+}
+div.H{
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  width: 200px;
+  height: 200px;
+}
+
+div.dat{
+  position: relative;
+  color:white;
+  top:-100px;
+  right:0px;
+  width: 400px;
+  height: 200px;
+  /*border: 3px solid #73AD21;*/
+}
+div.f,div.a{
+  text-align: center;
+  padding-top: 50px;
+  top: 0px;
+  right: 0px;
+  width: 200px;
+  height: 100px;
+  font-size: 40px;
+}
+div.w{
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  width: 200px;
+  height: 120px;
+  font-size: 40px;
+}
+div.h{
+  position: relative;
+  top: -40px;
+  right: -200px;
+  width: 200px;
+  height: 200px;
+  font-size: 40px;
+}
+a{
+  color: white;
+  text-decoration: none;
+  opacity: 70%;
+}
+a:hover{
+  color:red;
+}
+b{
+  color: white;
+}
+#clock{
+  font-family: 'Orbitron', sans-serif;
+  color: #FFF;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
